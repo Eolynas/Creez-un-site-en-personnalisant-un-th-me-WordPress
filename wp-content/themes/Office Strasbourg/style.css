@@ -1,0 +1,114 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+/*#site-header.transparent-header {
+    background-color: white;
+    position: fixed;
+    
+}*/
+
+
+
+#site-navigation-wrap {
+    padding-top: 10px;
+}
+
+#site-logo-inner {
+    padding-top: 10px;
+}
+
+/*.page-header {  suppression de l'entete 
+    display: none;
+}*/
+
+/***** EVENT MANAGER *****/
+
+@media screen and (min-width: 800px) { 
+
+    .css-events-list {
+        border: 1px solid black;
+
+    }
+}
+.events-table  tbody  tr:hover {
+    background-color: #ccdfea;
+    
+    
+}
+
+/*.events-table tr:nth-child(odd) {
+    background-color: #acdff7;
+    
+}*/
+
+.events-table > thead > tr {
+    background-color: #13aff0;
+    color: white;
+}
+
+.events-table td {
+    padding: 20px !important;
+    vertical-align: middle;
+}
+
+.roll-button-slider {
+    background-color: #13aff0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.event-time {
+    padding-left: 10px !important;
+    width: auto !important;
+}
+
+/* Menu responsible */
+
+@media screen and (max-width: 640px)
+{
+    
+    #site-logo { 
+        display: none;}
+}
+
+/* tableau responsible */
+
+.ml-grid {
+    border: 1px solid black;
+}
+
+
+.ml-responsive-table dl:nth-of-type(odd) {
+    
+    background: rgba(19, 175, 240, 0.5)
+}
+
+/* image accueil */
+
+@media screen and (max-width: 640px)
+{
+
+    .rpwe-title {
+        clear: both !important;
+    }
+}
+
+.em-booking-form label {
+    width: 120px;
+}
+
+
+
+
+
+
